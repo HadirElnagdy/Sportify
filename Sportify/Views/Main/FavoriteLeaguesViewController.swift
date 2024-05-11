@@ -66,7 +66,7 @@ class FavoriteLeaguesViewController: UIViewController, UITableViewDelegate, UITa
     }
    
      func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 70
+        return 90
     }
      func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //navigate to the first view controller in the Details Story Board
